@@ -69,3 +69,9 @@ export * from "./props/user-null.props";
 export * from "./props/value-change-props";
 export * from "./props/value-props";
 export * from "./props/you-props";
+
+// new
+export * from "./props/text-s-props";
+export * from "./props/field-change-props";
+export * from "./props/placeholder-props";
+export * from "./props/label-props";
