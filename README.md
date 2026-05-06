@@ -2,6 +2,14 @@
 
 Type-safe shared models and reusable props interfaces for TypeScript and React projects.
 
+## ✨ Features
+
+- 🧠 Simple and intuitive
+- 🔒 Fully type-safe (TypeScript-first)
+- ⚡ Lightweight and dependency-free
+- 🔌 Works with Next.js, and any TS project
+- 🧩 Reusable props and utilities
+
 `@ahmnouira/props` helps you avoid repeating common prop types (`onClick`, `value`, `loading`, `list`, etc.) and gives you a small set of domain models (`User`, `Role`, `Status`, `Entity`) you can reuse across apps.
 
 ## Installation
