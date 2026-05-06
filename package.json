@@ -1,7 +1,7 @@
 {
-  "name": "ahmnouira-<name>",
-  "version": "1.0.0",
-  "description": "",
+  "name": "@ahmnouira/props",
+  "version": "1.1.0",
+  "description": "⚡ Type-safe, easy-to-use props and utilities for building scalable TypeScript applications.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -10,13 +10,27 @@
     "changelog": "auto-changelog -p",
     "prepare": "rimraf dist && tsc"
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ahmnouira/ahmnouira-props.git"
+  },
+  "readme": "https://github.com/ahmnouira/ahmnouira-props.git#redme",
+  "homepage": "https://github.com/ahmnouira/ahmnouira-props",
+  "keywords": [
+    [
+      "props",
+      "typescript",
+      "react",
+      "next.js",
+      "ahmnouira"
+    ]
+  ],
   "author": {
     "name": "Ahmed Nouira",
     "email": "ahmnouira@gmail.com",
     "url": "https://github.com/ahmnouira"
   },
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "auto-changelog": "^2.5.1",
     "rimraf": "^6.1.3",
