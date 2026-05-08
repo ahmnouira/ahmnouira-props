@@ -97,6 +97,27 @@ Additional examples:
 - `examples/react-example.tsx`: reusable React components typed with this library
 - `examples/nextjs-example.tsx`: Next.js page-level example with typed dialog and user model
 
+## Real-World example
+
+```tsx
+import { LinkProps } from "@ahmnouira/props";
+
+export const SignInButton = ({
+  href = "/auth/login",
+  text = "Sign In",
+}: LinkProps) => {
+  return (
+    <a
+      className="h-10 flex items-center px-6 rounded-full border border-zinc-200/80 bg-white/80 text-[10px] font-bold tracking-[0.2em] uppercase transition-all hover:bg-black hover:text-white dark:border-zinc-800 dark:bg-zinc-900 dark:hover:bg-white dark:hover:text-black"
+      href={href}
+    >
+      {text}
+    </a>
+  );
+};
+
+```
+
 ## Notes
 
 - This package is **type-first** and lightweight.
