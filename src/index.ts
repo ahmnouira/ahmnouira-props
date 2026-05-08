@@ -47,7 +47,7 @@ export * from "./props/menu-props";
 export * from "./props/mobile-props";
 export * from "./props/mounted-props";
 export * from "./props/name-props";
-export * from "./props/navitem-props";
+export * from "./props/nav-item-props";
 export * from "./props/nb-props";
 export * from "./props/pathname.props";
 export * from "./props/role-props";
@@ -75,3 +75,7 @@ export * from "./props/text-s-props";
 export * from "./props/field-change-props";
 export * from "./props/placeholder-props";
 export * from "./props/label-props";
+
+export * from "./props/locale-props";
+export * from "./props/active-props";
+export * from "./props/scrolled-props";
