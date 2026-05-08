@@ -1,3 +1,3 @@
-export type SubitleProps = {
+export type SubtitleProps = {
   subtitle?: string;
 };
