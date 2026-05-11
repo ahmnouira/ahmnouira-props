@@ -1,5 +1,6 @@
 // models
 export * from "./models/entity";
+export * from "./models/user-entity";
 export * from "./models/role";
 export * from "./models/status";
 export * from "./models/user";
@@ -75,7 +76,10 @@ export * from "./props/text-s-props";
 export * from "./props/field-change-props";
 export * from "./props/placeholder-props";
 export * from "./props/label-props";
-
 export * from "./props/locale-props";
 export * from "./props/active-props";
 export * from "./props/scrolled-props";
+export * from "./props/img-props";
+export * from "./props/image-props";
+export * from "./props/select-props";
+export * from "./props/register-props";
