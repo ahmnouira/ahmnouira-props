@@ -1,6 +1,6 @@
 {
   "name": "@ahmnouira/props",
-  "version": "1.1.8",
+  "version": "1.1.9",
   "description": "⚡ Type-safe, easy-to-use props and utilities for building scalable TypeScript applications.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
