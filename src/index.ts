@@ -59,7 +59,7 @@ export * from "./props/selected-props";
 export * from "./props/show-icon-props";
 export * from "./props/show-props";
 export * from "./props/size-props";
-export * from "./props/styles-props";
+export * from "./props/style-props";
 export * from "./props/submit-value-props";
 export * from "./props/subtitle-props";
 export * from "./props/text-click-props";
@@ -70,8 +70,6 @@ export * from "./props/user-null.props";
 export * from "./props/value-change-props";
 export * from "./props/value-props";
 export * from "./props/you-props";
-
-// new
 export * from "./props/text-s-props";
 export * from "./props/field-change-props";
 export * from "./props/placeholder-props";
@@ -83,3 +81,6 @@ export * from "./props/img-props";
 export * from "./props/image-props";
 export * from "./props/select-props";
 export * from "./props/register-props";
+export * from "./props/section-props";
+export * from "./props/smaller-props";
+export * from "./props/secondary-props";

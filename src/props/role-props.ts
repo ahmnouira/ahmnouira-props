@@ -1,5 +1,5 @@
 import { Role } from "../models/role";
 
-export type RoleProps = {
-  role?: Role;
+export type RoleProps<T = Role> = {
+  role?: T;
 };
